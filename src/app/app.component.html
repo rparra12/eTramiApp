@@ -17,6 +17,14 @@
             </ion-item>
           </ion-menu-toggle>
         </ion-list>
+        <ion-menu-toggle auto-hide="false" class="item-bottom">
+            <ion-item (click)="enterAbout()">
+              <ion-icon slot="start" name="contact"></ion-icon>
+              <ion-label>
+                Nosotros
+              </ion-label>
+            </ion-item>
+          </ion-menu-toggle>
       </ion-content>
     </ion-menu>
     <ion-router-outlet main></ion-router-outlet>

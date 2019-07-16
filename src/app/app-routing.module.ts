@@ -15,7 +15,8 @@ const routes: Routes = [
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
   },
-  { path: 'view-form/:id', loadChildren: './view-form/view-form.module#ViewFormPageModule' }
+  { path: 'view-form/:id', loadChildren: './view-form/view-form.module#ViewFormPageModule' },
+  { path: 'about', loadChildren: './about/about.module#AboutPageModule' }
 ];
 
 @NgModule({
