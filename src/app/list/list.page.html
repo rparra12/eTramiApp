@@ -13,8 +13,8 @@
   <div>
   <ion-list class="container">
     <ion-item class="container" *ngFor="let item of data[0].tramites">
-        <ion-card class="container" class="welcome-card" (click)="navigationPage(item.id)">
-            <img src="/assets/shapes.svg" alt="" />
+        <ion-card class="container buttonC" class="welcome-card" (click)="navigationPage(item.id)">
+            <img src="{{item.img}}" alt="" />
             <ion-card-header style="background: white">
               <ion-card-subtitle>Costo: S/{{item.costo_tramite}}.00</ion-card-subtitle>
               <ion-card-title style="font-weight: bold">{{item.nombre_tramite}}</ion-card-title>

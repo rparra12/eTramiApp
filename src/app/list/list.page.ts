@@ -35,7 +35,8 @@ export class ListPage implements OnInit {
       "id" : 1,
       "lugar_pago" : [ "Caja de la Facultad", "Banco de Comercio" ],
       "nombre_tramite" : "Constancia de orden de mérito",
-      "requisitos" : [ "Solicitud de Formato Único de Trámite (FUT)", "Recibo cancelado por derecho a trámite" ]
+      "img" : "/assets/head1.png",
+      "requisitos" : [ "Solicitud de Formato Único de Trámite (FUT)", "Recibo cancelado por derecho a trámite" ],
     }, {
       "codigo_pago" : "10512",
       "comentarios" : [ "Se recomienda pagar en caja", "Oficina de Servicios Académicos - OSA", "El documento se entrega a mesa de partes", "Sacar una copia del FUT para el cargo" ],
@@ -45,6 +46,7 @@ export class ListPage implements OnInit {
       "id" : 2,
       "lugar_pago" : [ "Caja de la Facultad", "Banco de Comercio" ],
       "nombre_tramite" : "Constancia de notas",
+      "img" : "/assets/head4.png",
       "requisitos" : [ "Solicitud de Formato Único de Trámite (FUT)", "Recibo cancelado por derecho a trámite" ]
     }, {
       "codigo_pago" : "10312",
@@ -55,6 +57,7 @@ export class ListPage implements OnInit {
       "id" : 3,
       "lugar_pago" : [ "Caja de la Facultad", "Banco de Comercio" ],
       "nombre_tramite" : "Constancia de estudios",
+      "img" : "/assets/head3.png",
       "requisitos" : [ "Solicitud de Formato Único de Trámite (FUT)", "Recibo cancelado por derecho a trámite", "Copia de ficha de matrícula o boleta de notas" ]
     }, {
       "codigo_pago" : "10412",
@@ -65,6 +68,7 @@ export class ListPage implements OnInit {
       "id" : 4,
       "lugar_pago" : [ "Caja de la Facultad", "Banco de Comercio" ],
       "nombre_tramite" : "Constancia de matrícula",
+      "img" : "/assets/head2.png",
       "requisitos" : [ "Solicitud de Formato Único de Trámite (FUT)", "Recibo cancelado por derecho a trámite" ]
     }, {
       "codigo_pago" : "-",
@@ -74,6 +78,7 @@ export class ListPage implements OnInit {
       "descripcion" : "El siguiente trámite es para obtener una copia del plan de estudio.",
       "id" : 5,
       "nombre_tramite" : "Plan de Estudio",
+      "img" : "/assets/head4.png",
       "requisitos" : [ "Solicitud de Formato Único de Trámite (FUT)", "Copia de tabla de equivalencia de su año correspondiente" ]
     }, {
       "codigo_pago" : "16212",
@@ -84,6 +89,7 @@ export class ListPage implements OnInit {
       "id" : 6,
       "lugar_pago" : [ "Caja de la Facultad", "Banco de Comercio" ],
       "nombre_tramite" : "Derecho de examen de aplazado (Por curso)",
+      "img" : "/assets/head1.png",
       "requisitos" : [ "Recibo cancelado por curso" ]
     }, {
       "codigo_pago" : "15312",
@@ -94,6 +100,7 @@ export class ListPage implements OnInit {
       "id" : 7,
       "lugar_pago" : [ "Caja de la Facultad", "Banco de Comercio" ],
       "nombre_tramite" : "Convalidación de asignatura (Por curso)",
+      "img" : "/assets/head3.png",
       "requisitos" : [ "Solicitud de Formato Único de Trámite (FUT)", "Constancia de ingreso a la UNFV", "Certificado de estudios en original, de la facultad de origen", "Silabos de las asignaturas, visadas por el director de la escuela profesional de la facultad de origen", "Recibo cancelado por derecho a trámite", "Recibo cancelado por derecho a convalidación por curso" ]
     }, {
       "codigo_pago" : "-",
@@ -103,6 +110,7 @@ export class ListPage implements OnInit {
       "descripcion" : "El siguiente trámite es para obtener la constancia de tercio superior.",
       "id" : 8,
       "nombre_tramite" : "Constancia de Tercio Superior",
+      "img" : "/assets/head2.png",
       "requisitos" : [ "Solicitud de Formato Único de Trámite (FUT)", "Copia de ficha de matrícula" ]
     }, {
       "codigo_pago" : "14612",
@@ -113,6 +121,7 @@ export class ListPage implements OnInit {
       "id" : 9,
       "lugar_pago" : [ "Caja de la Facultad", "Banco de Comercio" ],
       "nombre_tramite" : "Rectificación de matrícula (Por curso)",
+      "img" : "/assets/head3.png",
       "requisitos" : [ "Solicitud de Formato Único de Trámite (FUT)", "Copia de ficha de matrícula", "Ficha de rectificación de matrícula visada por el consejero responsable", "Recibo cancelado por derecho de rectificación de curso" ]
     }, {
       "codigo_pago" : "14112",
@@ -123,6 +132,7 @@ export class ListPage implements OnInit {
       "id" : 10,
       "lugar_pago" : [ "Caja de la Facultad", "Banco de Comercio" ],
       "nombre_tramite" : "Reserva de matrícula",
+      "img" : "/assets/head2.png",
       "requisitos" : [ "Solicitud de Formato Único de Trámite (FUT)", "Copia de ficha de matrícula (Solo primer año)", "Recibo cancelado por derecho de trámite" ]
     } ],
     "universidad" : "Universidad Nacional Federico Villarreal"
