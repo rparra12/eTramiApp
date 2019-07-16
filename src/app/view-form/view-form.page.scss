@@ -1,0 +1,57 @@
+.container span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    flex-direction: column;
+    background: #fff9b6
+}
+.formHeader{
+    flex-direction: row;
+    ion-img{
+        height: 150px;
+        width: 150px;
+    }
+}
+.formBody{
+    flex-direction: row;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+    p, ul{
+        margin-top: 0;
+        margin-bottom: 0
+    }
+}
+.col-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-6{
+    flex-direction: column;
+    flex: 0.5
+}
+.row{
+    flex-direction: row;
+    flex: 1;
+    display: flex;
+}
+.text-col-6{
+    font-size: 30px;
+}
+.toolbar--background{
+    background: #4bbf53 !important
+}
+.container-button{
+    display: flex;
+    flex-direction: row;
+    //flex:1;
+    padding-top: 10px; 
+}
+.col-3{
+    flex-direction: column;
+    flex: 0.33;
+}

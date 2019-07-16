@@ -1,0 +1,42 @@
+<ion-header>
+    <ion-toolbar color="primary">
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="/"></ion-back-button>
+      </ion-buttons>
+      <ion-title>
+        {{titleHead}}
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content class="container">
+    <span>
+      <div class="formHeader">
+        <ion-img src="./assets/img/doc1.png"></ion-img>
+      </div><br>
+      <div class="formBody">
+        <div class="row text-col-6">
+            <div class="col-6 col-center">
+                <p><strong>Código</strong><br>{{dataIndex.codigo_pago}}</p>
+            </div>
+            <div class="col-6 col-center">
+                <p><strong>Costo</strong><br>S/{{dataIndex.costo_tramite}}.00</p>
+            </div>
+        </div>
+          <p style="padding-top: 5px"><strong>Dependencia</strong><br>{{dataIndex.dependencia}}</p>
+          <p style="padding-top: 5px"><strong>Descripción</strong><br>{{dataIndex.descripcion}}</p>
+      </div>
+      <div class="container-button">
+          <div class="col-3">
+            <ion-button color="tertiary" size="small" (click)="AlertRequisitos()">Requisitos</ion-button>
+          </div>
+          <div class="col-3">
+            <ion-button color="tertiary" size="small" (click)="AlertLugar()">Lugar pago</ion-button>
+          </div>
+          <div class="col-3">
+            <ion-button color="tertiary" size="small" (click)="AlertSugerencias(dataIndex.sugerencias)">Sugerencias</ion-button>
+          </div>
+        </div>
+    </span>
+  </ion-content>
+  
