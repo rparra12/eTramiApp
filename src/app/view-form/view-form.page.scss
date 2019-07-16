@@ -6,7 +6,7 @@
     height: 100%;
     flex: 1;
     flex-direction: column;
-    //background: #b19fda
+    background: rgb(255, 248, 166)
 }
 .formHeader{
     flex-direction: row;
@@ -54,4 +54,11 @@
 .col-3{
     flex-direction: column;
     flex: 0.33;
+}
+.col-12{
+    flex-direction: row;
+    flex: 1;
+}
+.alertcss{
+    color: green
 }

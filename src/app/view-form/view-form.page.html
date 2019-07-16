@@ -23,20 +23,25 @@
                 <p><strong>Costo</strong><br>S/{{dataIndex.costo_tramite}}.00</p>
             </div>
         </div>
-          <p style="padding-top: 5px"><strong>Dependencia</strong><br>{{dataIndex.dependencia}}</p>
-          <p style="padding-top: 5px"><strong>Descripción</strong><br>{{dataIndex.descripcion}}</p>
+          <p style="padding-top: 15px"><strong>Dependencia</strong><br>{{dataIndex.dependencia}}</p>
+          <p style="padding-top: 10px; padding-bottom: 10px"><strong>Descripción</strong><br>{{dataIndex.descripcion}}</p>
       </div>
-      <div class="container-button">
-          <div class="col-3">
-            <ion-button color="warning" size="small" (click)="AlertRequisitos()">Requisitos</ion-button>
-          </div>
-          <div class="col-3">
-            <ion-button color="warning" size="small" (click)="AlertLugar()">Lugar pago</ion-button>
-          </div>
-          <div class="col-3">
-            <ion-button color="warning" size="small" (click)="AlertSugerencias()">Sugerencias</ion-button>
-          </div>
-        </div>
+
+       <ion-grid style="display: contents">
+         <ion-row>
+           <ion-col size="6">
+            <ion-button color="warning" expand="block" (click)="AlertRequisitos()">Requisitos</ion-button>
+           </ion-col>
+           <ion-col size="6">
+            <ion-button color="warning" expand="block" (click)="AlertLugar()">Lugar pago</ion-button>
+          </ion-col>
+         </ion-row>
+         <ion-row>
+          <ion-col size="12">
+            <ion-button color="warning" expand="block" (click)="AlertSugerencias()">Sugerencias</ion-button>
+          </ion-col>
+         </ion-row>
+       </ion-grid> 
     </span>
   </ion-content>
   

@@ -132,7 +132,8 @@ export class ViewFormPage implements OnInit {
     const alert = await this.alertController.create({
       header: 'Lugar de Pago',
       message: this.bodyHtmlL(),
-      buttons: ['OK']
+      buttons: ['OK'],
+      cssClass: 'alertcss',
     });
 
     await alert.present();

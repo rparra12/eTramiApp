@@ -6,7 +6,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 99%;
+  height: 100%;
+  background: rgb(255, 248, 166)
 }
 .col-img{
   width: 60px;
@@ -33,4 +34,8 @@ p{
 .inner-scroll .scroll-y{
   display: center !important;
   align-items: center !important;
+}
+.plr-10{
+  padding-left: 23px;
+  padding-right: 23px;
 }

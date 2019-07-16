@@ -10,15 +10,16 @@
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <ion-item *ngFor="let item of data[0].tramites">
-        <ion-card class="welcome-card" (click)="navigationPage(item.id)">
+  <div>
+  <ion-list class="container">
+    <ion-item class="container" *ngFor="let item of data[0].tramites">
+        <ion-card class="container" class="welcome-card" (click)="navigationPage(item.id)">
             <img src="/assets/shapes.svg" alt="" />
-            <ion-card-header>
+            <ion-card-header style="background: white">
               <ion-card-subtitle>Costo: S/{{item.costo_tramite}}.00</ion-card-subtitle>
-              <ion-card-title>{{item.nombre_tramite}}</ion-card-title>
+              <ion-card-title style="font-weight: bold">{{item.nombre_tramite}}</ion-card-title>
             </ion-card-header>
-            <ion-card-content>
+            <ion-card-content style="background: white">
               <p>{{item.descripcion}}</p>
             </ion-card-content>
           </ion-card>
@@ -29,4 +30,5 @@
       You navigated here from <b>{{selectedItem.title }}</b>
     </div>
   -->
+  </div>
 </ion-content>
